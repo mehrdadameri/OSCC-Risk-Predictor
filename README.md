@@ -12,7 +12,7 @@
 ---
 
 ## 📊 How to Use
-1. **Visit the App**: [Click here to access the app](https://your-app-name.streamlit.app)
+1. **Visit the App**: [Click here to access the app](https://oscc-risk-predictor.streamlit.app/)
 2. **Upload Gene Expression Data**:
    - **Option 1**: Paste 44 expression values in CSV format.
    - **Option 2**: Enter values manually for each gene.

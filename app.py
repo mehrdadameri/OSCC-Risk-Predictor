@@ -12,7 +12,7 @@ st.title("OSCC Risk Predictor")
 model = joblib.load("XGBoost_model.pkl")
 
 # -----------------------------------------------------------------------------
-# 2. Define Feature Names (44 ensemble IDs) and Sample Values
+# 2. Feature Names (44 ensemble IDs) and Sample Values
 # -----------------------------------------------------------------------------
 feature_names = [
     "ENSG00000070081.17", "ENSG00000073282.14", "ENSG00000073756.12", "ENSG00000087116.16",
@@ -83,7 +83,7 @@ components.html(
 # -----------------------------------------------------------------------------
 # 4. CSV Input Mode
 #    - "Load Example" fills the text area.
-#    - A confirmation table (with row numbers 1-44) is shown before prediction.
+#    - A confirmation table is shown before the prediction.
 # -----------------------------------------------------------------------------
 if input_method == "CSV Input":
     if st.button("Load Example", key="csv_example"):
@@ -124,7 +124,6 @@ if input_method == "CSV Input":
 # -----------------------------------------------------------------------------
 # 5. Individual Input Mode
 #    - "Load Example" populates each gene's number input.
-#    - The prompt text is bold and larger.
 # -----------------------------------------------------------------------------
 elif input_method == "Individual Input":
     st.markdown("<h4><b>Enter the gene expression values for each gene:</b></h4>", unsafe_allow_html=True)
@@ -163,7 +162,7 @@ elif input_method == "Individual Input":
 st.markdown("<div style='height: 85px;'></div>", unsafe_allow_html=True)
 
 # -----------------------------------------------------------------------------
-# 7. FAQ Section (Toggle Form with Smaller Font)
+# 7. FAQ Section
 # -----------------------------------------------------------------------------
 st.markdown("<h3 style='font-size:16px; font-weight:bold;'>FAQ</h3>", unsafe_allow_html=True)
 

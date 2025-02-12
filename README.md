@@ -18,12 +18,3 @@
    - **Option 2**: Enter values manually for each gene.
 3. **Click "Predict"** to classify the patient as **high-risk or low-risk**.
 
----
-
-## 🖥️ Deployment
-This app is deployed on **Streamlit Community Cloud**. To run it locally:
-```bash
-git clone https://github.com/your-username/oscc-risk-predictor.git
-cd oscc-risk-predictor
-pip install -r requirements.txt
-streamlit run app.py

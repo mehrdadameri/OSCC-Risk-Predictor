@@ -1,5 +1,8 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.r-library/
+.venv/
+install_logs/
 *.py[cod]
 *$py.class
 
@@ -169,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Project-specific
+streamlit-ui.log
+.streamlit/secrets.toml
+oscc_survival_risk_predictor.egg-info/

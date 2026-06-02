@@ -1,0 +1,41 @@
+{
+  "model": "DeepSurv",
+  "n_patients": 168,
+  "n_genes_total": 116,
+  "n_events": 52,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "repeats": 20,
+  "stratification": "locked dataset:event folds when available, otherwise generated dataset:event folds",
+  "locked_folds_file": "data/preprocessed/folds/locked_nested_cv_folds.csv",
+  "mean_cindex": 0.680879483540485,
+  "std_cindex": 0.02092395250352551,
+  "median_cindex": 0.6805310231390436,
+  "aggregated_oof_cindex": 0.7129154952869191,
+  "device": "cuda",
+  "logrank_p_oof_median_split": 5.475279569398411e-05,
+  "oof_risk_hr": 2.530085161782114,
+  "oof_risk_hr_ci_lower": 1.681592353507757,
+  "oof_risk_hr_ci_upper": 3.8067079173600074,
+  "oof_risk_cox_p": 8.444786832334817e-06,
+  "final_candidate": "deepsurv__fs-none__k-all__batch_norm=False__check_every=5__dropout=0.4__hidden_units=(32,)__lr=0.001__n_epochs=300__patience=20__weight_decay=0.001",
+  "final_params": {
+    "hidden_units": [
+      32
+    ],
+    "dropout": 0.4,
+    "batch_norm": false,
+    "lr": 0.001,
+    "weight_decay": 0.001,
+    "n_epochs": 300,
+    "patience": 20,
+    "check_every": 5
+  },
+  "final_fs_method": "none",
+  "final_k": null,
+  "final_n_genes": 116,
+  "apparent_full_geo_cindex_final_model": 0.760542417727799,
+  "tcga_external_transform_primary": "cohort_zscore",
+  "tcga_external_transform_sensitivity": "quantile_to_geo_reference",
+  "caution": "DeepSurv is exploratory with 170 samples/52 events."
+}

@@ -1,0 +1,18 @@
+{
+  "model_name": "OSCC Survival Risk Predictor",
+  "model_family": "DeepSurv Cox neural network",
+  "training_cohort": "GSE42743+GSE41613",
+  "feature_table": "Integrated survival feature table: biomarker expression, Hallmark ssGSEA pathway activity, immune microenvironment scores, and clinical covariates",
+  "n_features": 116,
+  "feature_groups": {
+    "biomarker_expression": 43,
+    "hallmark_pathway_activity": 50,
+    "immune_microenvironment": 20,
+    "clinical_covariates": 3
+  },
+  "mean_cindex": 0.680879483540485,
+  "aggregated_oof_cindex": 0.7129154952869191,
+  "risk_threshold": 0.15183851940583248,
+  "inference_transform": "model_local",
+  "caution": "DeepSurv is exploratory with 170 samples/52 events."
+}

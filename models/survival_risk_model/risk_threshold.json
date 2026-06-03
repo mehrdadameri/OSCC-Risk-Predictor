@@ -1,0 +1,6 @@
+{
+  "threshold": 0.15183851940583248,
+  "source": "training out-of-fold median split from validation_predictions.csv",
+  "rule": "High if risk score >= threshold else Low",
+  "n_reference_predictions": 168
+}

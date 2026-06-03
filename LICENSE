@@ -1,55 +1,21 @@
-# Hybrid License: MIT (Code) + CC BY-NC 4.0 (Model)
-
-## 📌 1. Software License (MIT License)
-The source code in this repository is licensed under the MIT License.  
-This means you are **free to use, modify, and distribute** the code as long as you include attribution.
-
-### ✅ Permissions (Code under MIT License):
-- ✔ You can **use, modify, and distribute** the code.
-- ✔ You **do NOT need to pay** to use this software.
-- ✔ You can **include it in your own projects**.
-
-### ❌ Restrictions:
-- ❌ This license does **NOT** cover the trained machine learning model (`XGBoost_model.pkl`).
-- ❌ The trained model has **a separate license** (see below).
-
----
-
-## 📌 2. Machine Learning Model License (CC BY-NC 4.0)
-The **trained model (`XGBoost_model.pkl`)** and any related **predictions, outputs, or results** are licensed under **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
-
-### ✅ Permissions (Model under CC BY-NC 4.0):
-- ✔ You may **use the model for academic and research purposes**.
-- ✔ You must **give proper credit** when using it in publications.
-- ✔ You may **share predictions made by the model**, but **not the model itself**.
-
-### ❌ Restrictions:
-- ❌ **Commercial use is strictly prohibited** (this model cannot be sold or used for profit).
-- ❌ **You may not modify or redistribute the trained model** without explicit permission.
-- ❌ **You may not claim ownership of the trained model**.
-
----
-
-## 📌 3. How to Cite This Work:
-If you use this model in your research or application, please **cite the following paper**:
-📖 [Your Paper Citation Here]
-
-For full details on the **CC BY-NC 4.0 license**, visit:  
-🔗 https://creativecommons.org/licenses/by-nc/4.0/
-
-For full details on the **MIT license**, see below:
-
----
-
-## **📜 MIT License (Applies to Code Only)**
-
 MIT License
 
-Copyright (c) 2025 **[Mehrdad Ameri]**
+Copyright (c) 2026 Mehrdad Ameri
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell     
+copies of the Software, and to permit persons to whom the Software is        
+furnished to do so, subject to the following conditions:                     
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.                              
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR    
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,      
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE   
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER        
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+SOFTWARE.

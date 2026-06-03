@@ -1,6 +1,6 @@
 # OSCC Survival Risk Predictor
 
-Offline Streamlit application for oral squamous cell carcinoma (OSCC) survival risk prediction using a DeepSurv model with local R-based tumor microenvironment (TME) feature preparation.
+A Streamlit application for oral squamous cell carcinoma (OSCC) survival risk prediction using a DeepSurv model trained on 116 features including 43 gene biomarker expression + 50 Hallmark pathways + 20 immune/TME + 3 clinical
 
 ## Overview
 
